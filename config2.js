@@ -231,10 +231,10 @@ var config = {
             image: '',
             description: 'SEMANA 5',
             location: {
-                center: [-17.91549, 28.60885],
-                zoom: 13.45,
-                pitch: 60.00,
-                bearing: 82.80
+                center: [-17.90904, 28.61110],
+                zoom: 12.54,
+                pitch: 32.50,
+                bearing: 110.90
             },
             onChapterEnter: [
                 {
@@ -265,10 +265,10 @@ var config = {
             image: '',
             description: 'SEMANA 6',
             location: {
-                center: [-17.91549, 28.60885],
-                zoom: 13.45,
-                pitch: 60.00,
-                bearing: 82.80
+                center: [-17.90904, 28.61110],
+                zoom: 12.54,
+                pitch: 32.50,
+                bearing: 110.90
             },
             onChapterEnter: [
                 {
