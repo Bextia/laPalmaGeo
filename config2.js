@@ -45,7 +45,7 @@ var config = {
             description: 'A final de septiembre, después de unos días con valores de abombamiento altos y enjambres sísmicos, el volcán de Cumbre Vieja entra en erupción.',
             location: {
                 center: [-17.88727, 28.61047],
-                zoom: 12.82,
+                zoom: 11.5,
                 pitch: 60.00,
                 bearing: 51.20
             },
@@ -73,16 +73,16 @@ var config = {
                 {
                     layer: 'fajana-21092021',
                     opacity: 0.5
-                },
-                {
-                    layer: 'fajana-21092021L',
-                    opacity: 0.8
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'fajana-21092021',
                     opacity: 0
+                },
+                {
+                    layer: 'fajana-21092021L',
+                    opacity: 0.8
                 }
 
             ]
@@ -110,6 +110,14 @@ var config = {
                 {
                     layer: 'fajana-29092021',
                     opacity: 0
+                },
+                {
+                    layer: 'fajana-29092021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-21092021L',
+                    opacity: 0
                 }
             ]
         },
@@ -135,6 +143,150 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'fajana-12102021',
+                    opacity: 0
+                },
+                {
+                    layer: 'fajana-12102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-29092021L',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'semana3',
+            alignment: 'right',
+            hidden: false,
+            title: 'Proceso volcánico Cumbre Vieja',
+            image: '',
+            description: 'SEMANA 3',
+            location: {
+                center: [-17.91549, 28.60885],
+                zoom: 13.45,
+                pitch: 60.00,
+                bearing: 82.80
+            },
+            onChapterEnter: [
+                {
+                    layer: 'fajana-22102021',
+                    opacity: 0.5
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'fajana-22102021',
+                    opacity: 0
+                },
+                {
+                    layer: 'fajana-22102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-12102021L',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'semana4',
+            alignment: 'right',
+            hidden: false,
+            title: 'Proceso volcánico Cumbre Vieja',
+            image: '',
+            description: 'SEMANA 4',
+            location: {
+                center: [-17.90904, 28.61110],
+                zoom: 12.54,
+                pitch: 32.50,
+                bearing: 110.90
+            },
+            onChapterEnter: [
+                {
+                    layer: 'fajana-29102021',
+                    opacity: 0.5
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'fajana-29102021',
+                    opacity: 0
+                },
+                {
+                    layer: 'fajana-29102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-22102021L',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'semana5',
+            alignment: 'right',
+            hidden: false,
+            title: 'Proceso volcánico Cumbre Vieja',
+            image: '',
+            description: 'SEMANA 5',
+            location: {
+                center: [-17.91549, 28.60885],
+                zoom: 13.45,
+                pitch: 60.00,
+                bearing: 82.80
+            },
+            onChapterEnter: [
+                {
+                    layer: 'fajana-06112021',
+                    opacity: 0.5
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'fajana-06112021',
+                    opacity: 0
+                },
+                {
+                    layer: 'fajana-06112021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-29102021L',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'semana6',
+            alignment: 'right',
+            hidden: false,
+            title: 'Proceso volcánico Cumbre Vieja',
+            image: '',
+            description: 'SEMANA 6',
+            location: {
+                center: [-17.91549, 28.60885],
+                zoom: 13.45,
+                pitch: 60.00,
+                bearing: 82.80
+            },
+            onChapterEnter: [
+                {
+                    layer: 'fajana-15112021',
+                    opacity: 0.5
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'fajana-15112021',
+                    opacity: 0
+                },
+                {
+                    layer: 'fajana-15112021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-06112021L',
                     opacity: 0
                 }
             ]
